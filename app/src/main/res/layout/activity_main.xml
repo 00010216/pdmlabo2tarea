@@ -19,7 +19,7 @@
             android:layout_marginTop="20dp"
             android:textColor="#1B5E20"
             android:textStyle="bold"
-            android:text="Murray wins"
+            android:text=""
             android:textSize="56sp" />
 
         <LinearLayout
