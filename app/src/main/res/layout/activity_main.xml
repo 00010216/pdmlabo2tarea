@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:gravity="center_horizontal">
+        android:gravity="center">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -31,10 +30,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Federer"
+                    android:text="@string/federer"
                     android:textSize="32sp" />
 
                 <TextView
+                    android:id="@+id/scoreFederer"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -42,28 +42,31 @@
                     android:textSize="112sp" />
 
                 <Button
-                    android:id="@+id/button_4"
+                    android:id="@+id/btnF_15"
                     android:layout_width="80dp"
                     android:layout_height="40dp"
                     android:background="#01579B"
                     android:textColor="#ffff"
-
-                    android:text="+15"
-                ... />
-
-                <Button
-                    android:id="@+id/button_5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="+30"
-                ... />
+                    android:layout_margin="6dp"
+                    android:text="15" />
 
                 <Button
-                    android:id="@+id/button_"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="+40"
-                ... />
+                    android:id="@+id/btnF_30"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#01579B"
+                    android:textColor="#ffff"
+                    android:layout_margin="6dp"
+                    android:text="30" />
+
+                <Button
+                    android:id="@+id/btnF_40"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="6dp"
+                    android:background="#01579B"
+                    android:text="40"
+                    android:textColor="#ffff"/>
 
             </LinearLayout>
             <LinearLayout
@@ -95,10 +98,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Murray"
+                    android:text="@string/murray"
                     android:textSize="32sp" />
 
                 <TextView
+                    android:id="@+id/scoreMurray"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -106,28 +110,31 @@
                     android:textSize="112sp" />
 
                 <Button
-                    android:id="@+id/button_4"
+                    android:id="@+id/btnM_15"
                     android:layout_width="80dp"
                     android:layout_height="40dp"
                     android:background="#01579B"
                     android:textColor="#ffff"
-
-                    android:text="+15"
-                ... />
-
-                <Button
-                    android:id="@+id/button_5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="+30"
-                ... />
+                    android:layout_margin="6dp"
+                    android:text="15"/>
 
                 <Button
-                    android:id="@+id/button_"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="+40"
-                ... />
+                    android:id="@+id/btnM_30"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#01579B"
+                    android:textColor="#ffff"
+                    android:layout_margin="6dp"
+                    android:text="30"/>
+
+                <Button
+                    android:id="@+id/btnM_40"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#01579B"
+                    android:textColor="#ffff"
+                    android:layout_margin="6dp"
+                    android:text="40"/>
 
             </LinearLayout>
 
@@ -139,15 +146,14 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/b"
-                android:layout_marginTop="16dp"
+                android:id="@+id/btn_reset"
+                android:layout_marginTop="40dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#fff"
                 android:background="#DD2C00"
-                android:text="Limpiar"
-            ... />
+                android:text="@string/limpiar"/>
         </LinearLayout>
 
-
+    </LinearLayout>
     </LinearLayout>
