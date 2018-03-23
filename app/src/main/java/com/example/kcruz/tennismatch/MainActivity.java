@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 txtD.setText("Federer wins");
             }
             else if(pointsM-pointsF==10) {
-                txtM.setText("Murray wins");
+                txtD.setText("Murray wins");
             }
             else {
                 txtF.setText(pointsF+"");
