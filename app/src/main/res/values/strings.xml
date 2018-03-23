@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">TennisMatch</string>
+    <string name="federer">Federer</string>
+    <string name="murray">Murray</string>
+    <string name="limpiar">Limpiar</string>
 </resources>
