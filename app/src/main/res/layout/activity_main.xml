@@ -9,19 +9,31 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:gravity="center">
+        android:gravity="">
+
+        <TextView
+            android:id="@+id/deuce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textColor="#1B5E20"
+            android:textStyle="bold"
+            android:text="Murray wins"
+            android:textSize="56sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:gravity="center">
 
 
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
+                android:layout_marginTop="0dp"
                 android:gravity="center_horizontal"
                 android:orientation="vertical">
 
@@ -42,31 +54,15 @@
                     android:textSize="112sp" />
 
                 <Button
-                    android:id="@+id/btnF_15"
-                    android:layout_width="80dp"
-                    android:layout_height="40dp"
+                    android:id="@+id/btnF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:background="#01579B"
                     android:textColor="#ffff"
-                    android:layout_margin="6dp"
-                    android:text="15" />
+                    android:padding="6dp"
 
-                <Button
-                    android:id="@+id/btnF_30"
-                    android:layout_width="80dp"
-                    android:layout_height="40dp"
-                    android:background="#01579B"
-                    android:textColor="#ffff"
-                    android:layout_margin="6dp"
-                    android:text="30" />
+                    android:text="toss the ball" />
 
-                <Button
-                    android:id="@+id/btnF_40"
-                    android:layout_width="80dp"
-                    android:layout_height="40dp"
-                    android:layout_margin="6dp"
-                    android:background="#01579B"
-                    android:text="40"
-                    android:textColor="#ffff"/>
 
             </LinearLayout>
             <LinearLayout
@@ -90,7 +86,7 @@
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
+                android:layout_marginTop="0dp"
                 android:gravity="center_horizontal"
                 android:orientation="vertical">
 
@@ -110,44 +106,28 @@
                     android:textSize="112sp" />
 
                 <Button
-                    android:id="@+id/btnM_15"
-                    android:layout_width="80dp"
-                    android:layout_height="40dp"
+                    android:id="@+id/btnM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:background="#01579B"
                     android:textColor="#ffff"
-                    android:layout_margin="6dp"
-                    android:text="15"/>
+                    android:padding="6dp"
 
-                <Button
-                    android:id="@+id/btnM_30"
-                    android:layout_width="80dp"
-                    android:layout_height="40dp"
-                    android:background="#01579B"
-                    android:textColor="#ffff"
-                    android:layout_margin="6dp"
-                    android:text="30"/>
-
-                <Button
-                    android:id="@+id/btnM_40"
-                    android:layout_width="80dp"
-                    android:layout_height="40dp"
-                    android:background="#01579B"
-                    android:textColor="#ffff"
-                    android:layout_margin="6dp"
-                    android:text="40"/>
+                    android:text="toss the ball" />
 
             </LinearLayout>
 
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:gravity="center">
 
             <Button
                 android:id="@+id/btn_reset"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="56dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#fff"
