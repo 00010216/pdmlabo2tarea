@@ -55,7 +55,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             if(scored==1)pointsF+=5;
             else if(scored==2)pointsM+=5;
             if(pointsF-pointsM==10){
-                /*txtF.setText(pointsF+=5);*/
                 txtD.setText("Federer wins");
             }
             else if(pointsM-pointsF==10) {
@@ -86,8 +85,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
             else  txtD.setText("Murray wins");
         }
-        /*elseif ((pointsF==45 && pointsM<40) || (pointsM==45 && pointsF<40) )*/
-
         if (pointsF == pointsM && pointsF >= 40) txtD.setText("DEUCE");
 
     }
