@@ -132,7 +132,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="#fff"
                 android:background="#DD2C00"
-                android:text="@string/limpiar"/>
+                android:text="@string/clean"/>
         </LinearLayout>
 
     </LinearLayout>
