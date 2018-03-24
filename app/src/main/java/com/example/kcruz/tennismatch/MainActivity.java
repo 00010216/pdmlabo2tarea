@@ -55,10 +55,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             if(scored==1)pointsF+=5;
             else if(scored==2)pointsM+=5;
             if(pointsF-pointsM==10){
-                txtD.setText("Federer wins");
+                txtF.setText("wins");
+                txtM.setText("lose");
             }
             else if(pointsM-pointsF==10) {
-                txtD.setText("Murray wins");
+                txtM.setText("wins");
+                txtF.setText("lose");
             }
             else {
                 txtF.setText(pointsF+"");
