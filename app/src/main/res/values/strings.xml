@@ -3,4 +3,5 @@
     <string name="federer">Federer</string>
     <string name="murray">Murray</string>
     <string name="limpiar">Limpiar</string>
+    <string name="clean">RESET</string>
 </resources>
